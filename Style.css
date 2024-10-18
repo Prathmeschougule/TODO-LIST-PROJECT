@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.todo-grid,.Todo-gridList{
+
+    display:  grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px   ;
+
+}
+input {
+    font-size: 15px;
+    padding: 10px;
+}
+.btn-submit{
+    background-color: rgb(60, 214, 55);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.delete-todo{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
